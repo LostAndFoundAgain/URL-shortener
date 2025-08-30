@@ -1,9 +1,0 @@
-package com.design.URL_shortener.api;
-
-import com.design.URL_shortener.Model.URL;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface URLRepository extends MongoRepository<URL, String> {
-}
